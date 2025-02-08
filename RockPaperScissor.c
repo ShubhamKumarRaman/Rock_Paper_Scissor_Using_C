@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
+#include <time.h>
 void main()
 {
+    srand(time(0));
     int yourChoice, ComputerChoice;
     int YourScore = 0, ComputerScore = 0;
     printf("Welcome to Rock Paper Scissor Game\n");
